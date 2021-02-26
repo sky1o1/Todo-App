@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, TextInput, ScrollView, FlatList, TouchableOpacity, Alert, TouchableWithoutFeedback, Keyboard } from 'react-native';
+import { 
+  StyleSheet, 
+  View, 
+  FlatList, 
+  Alert, 
+  TouchableWithoutFeedback, 
+  Keyboard 
+} from 'react-native';
 import Header from './components/Header';
 import AddTodo from './components/AddTodo';
 import ListTodo from './components/ListTodo';
